@@ -1,4 +1,4 @@
-# praktikum_3
+# minggu_kedua
 
 A new Flutter project.
 

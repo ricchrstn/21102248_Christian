@@ -1,53 +1,30 @@
+// This is a basic Flutter widget test.
+//
+// To perform an interaction with a widget in your test, use the WidgetTester
+// utility in the flutter_test package. For example, you can send tap and scroll
+// gestures. You can also use WidgetTester to find child widgets in the widget
+// tree, read text, and verify that the values of widget properties are correct.
+
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:praktikum_3/main.dart';
+import 'package:minggu_kedua/main.dart';
 
 void main() {
-  testWidgets('MyApp renders correctly', (WidgetTester tester) async {
+  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(const MyApp());
 
-    // Verify that the app renders without errors.
-    expect(find.byType(MaterialApp), findsOneWidget);
-    expect(find.byType(Scaffold), findsOneWidget);
-  });
+    // Verify that our counter starts at 0.
+    expect(find.text('0'), findsOneWidget);
+    expect(find.text('1'), findsNothing);
 
-  testWidgets('Container widget renders correctly',
-      (WidgetTester tester) async {
-    // Build the Container widget and trigger a frame.
-    await tester.pumpWidget(MaterialApp(
-      home: Scaffold(
-        body: Container(
-          color: Colors.red,
-          width: 100,
-          height: 100,
-        ),
-      ),
-    ));
+    // Tap the '+' icon and trigger a frame.
+    await tester.tap(find.byIcon(Icons.add));
+    await tester.pump();
 
-    // Verify that the Container is rendered.
-    expect(find.byType(Container), findsOneWidget);
-  });
-
-  testWidgets('ListView widget renders correctly', (WidgetTester tester) async {
-    // Build the ListView widget and trigger a frame.
-    await tester.pumpWidget(MaterialApp(
-      home: Scaffold(
-        body: ListView(
-          children: const [
-            Text('Item 1'),
-            Text('Item 2'),
-            Text('Item 3'),
-          ],
-        ),
-      ),
-    ));
-
-    // Verify that the ListView and its items are rendered.
-    expect(find.byType(ListView), findsOneWidget);
-    expect(find.text('Item 1'), findsOneWidget);
-    expect(find.text('Item 2'), findsOneWidget);
-    expect(find.text('Item 3'), findsOneWidget);
+    // Verify that our counter has incremented.
+    expect(find.text('0'), findsNothing);
+    expect(find.text('1'), findsOneWidget);
   });
 }
