@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Praktikum HTML & CSS</title>
+    <style>
+        /* Global Styles */
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        
+        /* Typography */
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        /* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        
+        /* Form Styles */
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 20px 0;
+            max-width: 400px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+        
+        /* Image Styles */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        
+        /* Link Styles */
+        a {
+            color: #3498db;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px 0;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Grid System */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .grid-item {
+            background: #3498db;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        /* Flexbox System */
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        .flex-item {
+            background: #e74c3c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        /* Utility Classes */
+        .text-center {
+            text-align: center;
+        }
+        
+        .highlight {
+            color: #e74c3c;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="text-center">Halo, Mbak F!</h1>
+            <p>Ini adalah paragraf pertama dari Agam Yogi.</p>
+            <p class="highlight">Ini Paragraf Saya</p>
+        </header>
+
+        <section>
+            <h2>Gambar</h2>
+            <img src="gambar.jpg" alt="Deskripsi gambar" loading="lazy">
+            <img src="https://cdns.klimg.com/bola.net/resized/810x540/library/upload/21/2023/03/996x664/liverpool_21c39ef.jpg" 
+                 alt="Liverpool FC" loading="lazy">
+        </section>
+
+        <section>
+            <h2>Link</h2>
+            <a href="https://www.zawata.co.id/" target="_blank" rel="noopener noreferrer">Kunjungi Zawata</a>
+        </section>
+
+        <section>
+            <h2>Tabel Data</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Nama</th>
+                        <th colspan="2">Informasi</th>
+                    </tr>
+                    <tr>
+                        <th>Usia</th>
+                        <th>Kota</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ani</td>
+                        <td>20</td>
+                        <td>Jakarta</td>
+                    </tr>
+                    <tr>
+                        <td>Budi</td>
+                        <td>25</td>
+                        <td>Bandung</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Formulir</h2>
+            <form action="proses.php" method="post">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+                <input type="submit" value="Kirim">
+            </form>
+        </section>
+
+        <section>
+            <h2>Layout Grid</h2>
+            <div class="grid-container">
+                <div class="grid-item">Item 1</div>
+                <div class="grid-item">Item 2</div>
+                <div class="grid-item">Item 3</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Layout Flexbox</h2>
+            <div class="flex-container">
+                <div class="flex-item">Item A</div>
+                <div class="flex-item">Item B</div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
