@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Belajar JavaScript dan jQuery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    #kotak, #box, #panel {
+      width: 100%;
+      height: 100px;
+      margin-top: 10px;
+      background-color: lightgray;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <h1 id="judul" class="text-center mb-4">Judul Awal</h1>
+  <p class="paragraf">Ini adalah paragraf pertama.</p>
+
+  <div class="my-3">
+    <button id="tombol" class="btn btn-primary">Klik Saya</button>
+    <button id="toggleButton" class="btn btn-warning">Toggle Panel</button>
+    <button id="fadeButton" class="btn btn-secondary">Fade Box</button>
+  </div>
+
+  <div id="kotak">Kotak untuk fadeIn/fadeOut</div>
+  <div id="box">Box untuk fadeToggle</div>
+  <div id="panel">Panel untuk slideToggle</div>
+
+  <div class="mt-4">
+    <h4>Output JavaScript Console</h4>
+    <pre id="outputConsole" class="bg-dark text-white p-3 rounded" style="height: 300px; overflow-y: auto;"></pre>
+  </div>
+</div>
+
+<script>
+  // Deklarasi variabel
+  var nama = "Febrilia";
+  let umur = 21;
+  const kota = "Purwokerto";
+
+  let output = "";
+
+  // Kondisi if-else
+  if (umur > 18) {
+    output += "Dewasa\n";
+  } else {
+    output += "Anak-anak\n";
+  }
+
+  // Perulangan for
+  for (let i = 0; i < 5; i++) {
+    output += "For loop: " + i + "\n";
+  }
+
+  // Perulangan while
+  let j = 0;
+  while (j < 5) {
+    output += "While loop: " + j + "\n";
+    j++;
+  }
+
+  // Fungsi sederhana
+  function sapa(nama) {
+    return "Halo, " + nama;
+  }
+
+  output += sapa("Febrilia") + "\n";
+
+  // Objek
+  const mahasiswa = {
+    nama: "Febrilia",
+    umur: 21,
+    sapa: function() {
+      return "Halo, saya " + this.nama;
+    }
+  };
+
+  output += mahasiswa.sapa() + "\n";
+
+  // Tampilkan output ke elemen <pre>
+  document.getElementById("outputConsole").textContent = output;
+
+  // jQuery manipulasi konten dan style
+  $(document).ready(function () {
+    $("#judul").text("Belajar jQuery");
+    $(".paragraf").css("color", "blue");
+
+    $("#tombol").click(function () {
+      alert("Tombol diklik!");
+      $("#kotak").fadeOut().fadeIn(); // Contoh penggunaan fadeOut dan fadeIn
+    });
+
+    $("#toggleButton").click(function () {
+      $("#panel").slideToggle();
+    });
+
+    $("#fadeButton").click(function () {
+      $("#box").fadeToggle();
+    });
+
+    // jQuery AJAX GET
+    $.get("https://jsonplaceholder.typicode.com/posts", function (data) {
+      console.log("Data dari $.get:", data.slice(0, 3)); // tampilkan 3 data pertama
+    });
+  });
+
+  // Async Await GET
+  async function getData() {
+    let response = await fetch("https://jsonplaceholder.typicode.com/posts");
+    let data = await response.json();
+    console.log("Data dari fetch GET:", data.slice(0, 3));
+  }
+
+  getData();
+
+  // Async Await POST
+  async function kirimData() {
+    let response = await fetch("https://jsonplaceholder.typicode.com/posts", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        title: "Belajar JavaScript",
+        body: "Ini contoh pengiriman data",
+        userId: 1
+      })
+    });
+
+    let data = await response.json();
+    console.log("Hasil POST:", data);
+  }
+
+  kirimData();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

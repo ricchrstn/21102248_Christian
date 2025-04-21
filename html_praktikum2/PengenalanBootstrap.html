@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Keren</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f4f6f8;
+    }
+
+    .navbar {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .custom-section {
+      padding: 60px 0;
+    }
+
+    .card-custom {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card-custom:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-primary" href="#">MyWebsite</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tentang</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Grid Section -->
+<section class="custom-section text-center">
+  <div class="container">
+    <h2 class="mb-5">Tiga Kolom Responsive</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="p-4 bg-white rounded shadow-sm h-100">Kolom 1</div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 bg-white rounded shadow-sm h-100">Kolom 2</div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 bg-white rounded shadow-sm h-100">Kolom 3</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tombol -->
+<section class="text-center mb-5">
+  <button class="btn btn-primary px-4 py-2 fs-5">Tombol Biru</button>
+</section>
+
+<!-- Card Section -->
+<section class="custom-section bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <div class="card card-custom shadow-sm">
+          <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Gambar">
+          <div class="card-body">
+            <h5 class="card-title">Judul Kartu</h5>
+            <p class="card-text">HALLO.</p>
+            <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
