@@ -1,16 +1,31 @@
-# modul_10
+# Praktikum Minggu 5: PHP Lanjutan
 
-A new Flutter project.
+**Nama:** RIZKY CRISTIAN SITUMORANG
+**NIM:** 21102248
 
-## Getting Started
+## Deskripsi
+Proyek ini berisi latihan lanjutan pemrograman web menggunakan PHP, seperti penggunaan array, function, dan file handling.
 
-This project is a starting point for a Flutter application.
+### Cara Menjalankan
+Jalankan file PHP menggunakan server lokal seperti XAMPP atau Laragon.
 
-A few resources to get you started if this is your first Flutter project:
+### Fitur Utama
+- Array dan function PHP
+- File handling
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Week 5 Practical: Advanced PHP
+
+**Name:** RIZKY CRISTIAN SITUMORANG
+**Student ID:** 21102248
+
+## Description
+This project contains advanced web programming exercises using PHP, such as arrays, functions, and file handling.
+
+### How to Run
+Run the PHP files using a local server like XAMPP or Laragon.
+
+### Main Features
+- PHP arrays and functions
+- File handling

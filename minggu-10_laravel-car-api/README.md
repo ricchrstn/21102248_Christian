@@ -1,3 +1,47 @@
+# Praktikum Minggu 10: Laravel Car Management API
+
+**Nama:** RIZKY CRISTIAN SITUMORANG
+**NIM:** 21102248
+
+## Deskripsi
+Proyek ini adalah aplikasi manajemen mobil menggunakan Laravel, dengan fitur CRUD, upload gambar, relasi one-to-many, dan autentikasi API menggunakan Sanctum.
+
+### Cara Menjalankan
+1. Clone repository ini
+2. Jalankan `composer install`
+3. Copy `.env.example` ke `.env` dan atur konfigurasi database
+4. Jalankan `php artisan migrate`
+5. Jalankan `php artisan serve`
+
+### Fitur Utama
+- CRUD data mobil
+- Upload gambar
+- Relasi one-to-many
+- Autentikasi API (Sanctum)
+
+---
+
+# Week 10 Practical: Laravel Car Management API
+
+**Name:** RIZKY CRISTIAN SITUMORANG
+**Student ID:** 21102248
+
+## Description
+This project is a car management application using Laravel, featuring CRUD, image upload, one-to-many relationship, and API authentication with Sanctum.
+
+### How to Run
+1. Clone this repository
+2. Run `composer install`
+3. Copy `.env.example` to `.env` and set up your database configuration
+4. Run `php artisan migrate`
+5. Run `php artisan serve`
+
+### Main Features
+- Car data CRUD
+- Image upload
+- One-to-many relationship
+- API authentication (Sanctum)
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">

@@ -1,16 +1,31 @@
-# modul7_tugas
+# Tugas Minggu 4: HTML & CSS
 
-A new Flutter project.
+**Nama:** RIZKY CRISTIAN SITUMORANG
+**NIM:** 21102248
 
-## Getting Started
+## Deskripsi
+Tugas ini berisi pembuatan halaman web dengan desain dan layout menggunakan HTML dan CSS sesuai instruksi praktikum.
 
-This project is a starting point for a Flutter application.
+### Cara Menjalankan
+Buka file HTML di browser favorit Anda.
 
-A few resources to get you started if this is your first Flutter project:
+### Fitur Utama
+- Layout web dengan HTML & CSS
+- Desain custom sesuai tugas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Week 4 Assignment: HTML & CSS
+
+**Name:** RIZKY CRISTIAN SITUMORANG
+**Student ID:** 21102248
+
+## Description
+This assignment contains web page creation with design and layout using HTML and CSS as instructed in the practical session.
+
+### How to Run
+Open the HTML file in your favorite browser.
+
+### Main Features
+- Web layout with HTML & CSS
+- Custom design as per assignment

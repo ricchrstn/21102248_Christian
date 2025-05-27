@@ -1,16 +1,31 @@
-# network_modul11
+# Praktikum Minggu 6: PHP & Jaringan
 
-A new Flutter project.
+**Nama:** RIZKY CRISTIAN SITUMORANG
+**NIM:** 21102248
 
-## Getting Started
+## Deskripsi
+Proyek ini berisi latihan pemrograman web menggunakan PHP yang terhubung dengan jaringan, seperti pengambilan data dari API.
 
-This project is a starting point for a Flutter application.
+### Cara Menjalankan
+Jalankan file PHP menggunakan server lokal dan pastikan koneksi internet aktif untuk akses API.
 
-A few resources to get you started if this is your first Flutter project:
+### Fitur Utama
+- Koneksi ke API
+- Pengolahan data dari jaringan
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Week 6 Practical: PHP & Network
+
+**Name:** RIZKY CRISTIAN SITUMORANG
+**Student ID:** 21102248
+
+## Description
+This project contains web programming exercises using PHP connected to networks, such as fetching data from APIs.
+
+### How to Run
+Run the PHP files using a local server and make sure the internet connection is active for API access.
+
+### Main Features
+- API connection
+- Data processing from network

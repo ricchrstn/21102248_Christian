@@ -1,16 +1,31 @@
-# flutter_application_1
+# Praktikum Minggu 1: HTML Dasar
 
-A new Flutter project.
+**Nama:** RIZKY CRISTIAN SITUMORANG
+**NIM:** 21102248
 
-## Getting Started
+## Deskripsi
+Proyek ini berisi latihan dasar pembuatan halaman web menggunakan HTML. Materi meliputi struktur dasar HTML, penggunaan tag-tag utama, dan pembuatan halaman sederhana.
 
-This project is a starting point for a Flutter application.
+### Cara Menjalankan
+Buka file HTML di browser favorit Anda.
 
-A few resources to get you started if this is your first Flutter project:
+### Fitur Utama
+- Struktur HTML dasar
+- Penggunaan tag heading, paragraph, list, dan link
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Week 1 Practical: Basic HTML
+
+**Name:** RIZKY CRISTIAN SITUMORANG
+**Student ID:** 21102248
+
+## Description
+This project contains basic exercises for creating web pages using HTML. The materials cover basic HTML structure, main tags usage, and simple page creation.
+
+### How to Run
+Open the HTML file in your favorite browser.
+
+### Main Features
+- Basic HTML structure
+- Usage of heading, paragraph, list, and link tags

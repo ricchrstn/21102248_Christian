@@ -1,16 +1,33 @@
-# flutter_application_1
+# Praktikum Minggu 4: HTML & CSS Praktikum
 
-A new Flutter project.
+**Nama:** RIZKY CRISTIAN SITUMORANG
+**NIM:** 21102248
 
-## Getting Started
+## Deskripsi
+Proyek ini berisi latihan menggabungkan HTML dan CSS untuk membuat tampilan web yang menarik dan responsif.
 
-This project is a starting point for a Flutter application.
+### Cara Menjalankan
+Buka file HTML di browser favorit Anda.
 
-A few resources to get you started if this is your first Flutter project:
+### Fitur Utama
+- Integrasi HTML dan CSS
+- Desain responsif
+- Penggunaan selector dan properti CSS
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Week 4 Practical: HTML & CSS
+
+**Name:** RIZKY CRISTIAN SITUMORANG
+**Student ID:** 21102248
+
+## Description
+This project contains exercises combining HTML and CSS to create attractive and responsive web pages.
+
+### How to Run
+Open the HTML file in your favorite browser.
+
+### Main Features
+- HTML and CSS integration
+- Responsive design
+- Use of CSS selectors and properties

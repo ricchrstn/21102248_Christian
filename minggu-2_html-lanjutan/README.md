@@ -1,16 +1,33 @@
-# minggu_kedua
+# Praktikum Minggu 2: HTML Lanjutan
 
-A new Flutter project.
+**Nama:** RIZKY CRISTIAN SITUMORANG
+**NIM:** 21102248
 
-## Getting Started
+## Deskripsi
+Proyek ini berisi latihan lanjutan HTML, seperti penggunaan tabel, form, dan elemen multimedia pada halaman web.
 
-This project is a starting point for a Flutter application.
+### Cara Menjalankan
+Buka file HTML di browser favorit Anda.
 
-A few resources to get you started if this is your first Flutter project:
+### Fitur Utama
+- Tabel HTML
+- Form input
+- Penyisipan gambar dan video
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Week 2 Practical: Advanced HTML
+
+**Name:** RIZKY CRISTIAN SITUMORANG
+**Student ID:** 21102248
+
+## Description
+This project contains advanced HTML exercises, such as using tables, forms, and multimedia elements on web pages.
+
+### How to Run
+Open the HTML file in your favorite browser.
+
+### Main Features
+- HTML tables
+- Form input
+- Embedding images and videos
