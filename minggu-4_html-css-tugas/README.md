@@ -1,5 +1,3 @@
-<img src="URL_GAMBAR_HASIL_PROYEK" width="800" alt="Demo Project Tugas Minggu 4: HTML & CSS" />
-
 # Tugas Minggu 4: HTML & CSS
 
 **Nama:** RIZKY CRISTIAN SITUMORANG

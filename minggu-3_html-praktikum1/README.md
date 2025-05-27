@@ -1,5 +1,3 @@
-<img src="URL_GAMBAR_HASIL_PROYEK" width="800" alt="Demo Project Minggu 3: HTML Praktikum 1" />
-
 # Praktikum Minggu 3: HTML Praktikum 1
 
 **Nama:** RIZKY CRISTIAN SITUMORANG

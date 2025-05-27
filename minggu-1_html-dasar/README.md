@@ -1,5 +1,3 @@
-<img src="URL_GAMBAR_HASIL_PROYEK" width="800" alt="Demo Project Minggu 1: HTML Dasar" />
-
 # Praktikum Minggu 1: HTML Dasar
 
 **Nama:** RIZKY CRISTIAN SITUMORANG
