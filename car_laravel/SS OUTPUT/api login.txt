@@ -1,0 +1,53 @@
+{
+    "token_type": "Bearer",
+    "access_token": "3|EE78IccjQRM0xfpUDEwOhRDVXlXbZuBtIJyruDwsce5f235a",
+    "user": {
+        "id": 2,
+        "name": "Christian",
+        "email": "christian@gmail.com",
+        "email_verified_at": null,
+        "created_at": "2025-05-27T04:09:15.000000Z",
+        "updated_at": "2025-05-27T04:09:15.000000Z"
+    },
+    "message": "berhasil login"
+}
+{
+    "token_type": "Bearer",
+    "access_token": "4|WoD7PNeE2ep4ArRKd1YUxcbD4JYN8fSwi0519N8q53ce63cb",
+    "user": {
+        "name": "test",
+        "email": "test@gmail.com",
+        "updated_at": "2025-05-27T06:20:27.000000Z",
+        "created_at": "2025-05-27T06:20:27.000000Z",
+        "id": 3
+    },
+    "message": "berhasil register"
+}
+{
+    "token_type": "Bearer",
+    "access_token": "5|RDK6YKLY9rqBY6dQ6I9WtYYgMmcWm3AjTA1vLVrOd053b961",
+    "user": {
+        "id": 3,
+        "name": "test",
+        "email": "test@gmail.com",
+        "email_verified_at": null,
+        "created_at": "2025-05-27T06:20:27.000000Z",
+        "updated_at": "2025-05-27T06:20:27.000000Z"
+    },
+    "message": "berhasil login"
+}
+{
+    "success": true,
+    "message": "Data Car Berhasil Ditambahkan!",
+    "data": {
+        "merk_id": "1",
+        "model": "Supra CAR",
+        "color": "Blue",
+        "year": "2025",
+        "price": "5000000000",
+        "image": "OKCSRfiTdpoglqxF1nu9lEdfnPkPP2YtPNmFLRLK.jpg",
+        "updated_at": "2025-05-27T06:39:47.000000Z",
+        "created_at": "2025-05-27T06:39:47.000000Z",
+        "id": 3
+    }
+}
