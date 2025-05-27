@@ -1,3 +1,5 @@
+<img src="URL_GAMBAR_HASIL_PROYEK" width="800" alt="Demo Project Minggu 9: PHP CRUD Lanjutan" />
+
 # Praktikum Minggu 9: PHP CRUD Lanjutan
 
 **Nama:** RIZKY CRISTIAN SITUMORANG
