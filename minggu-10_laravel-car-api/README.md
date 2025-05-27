@@ -42,6 +42,14 @@ This project is a car management application using Laravel, featuring CRUD, imag
 - One-to-many relationship
 - API authentication (Sanctum)
 
+### Screenshot Hasil / Result Screenshots
+
+<img src="SS OUTPUT/ADMIN DASHBOARD.png" width="800" alt="Admin Dashboard" />
+
+<img src="SS OUTPUT/Car List CRUD.png" width="800" alt="Car List CRUD" />
+
+<img src="SS OUTPUT/login.png" width="800" alt="Login Page" />
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
